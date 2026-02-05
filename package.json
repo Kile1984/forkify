@@ -17,5 +17,12 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.0"
+  },
+  "targets": {
+  "default": {
+    "sourceMap": false,
+    "optimize": false
   }
+}
+
 }
