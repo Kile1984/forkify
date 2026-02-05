@@ -7,7 +7,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.htm"
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "core-js": "^3.45.1",
