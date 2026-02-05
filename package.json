@@ -1,31 +1,21 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "Recipe app",
+  "description": "Recipie app",
   "license": "ISC",
   "author": "Ilija",
   "type": "commonjs",
-
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-
-  "targets": {
-    "default": {
-      "optimize": false,
-      "sourceMap": false
-    }
-  },
-
   "dependencies": {
     "core-js": "^3.45.1",
     "fracty": "^1.0.12",
+    "parcel": "^2.16.0",
     "regenerator-runtime": "^0.14.1"
   },
-
   "devDependencies": {
-    "parcel": "^2.16.0",
     "@parcel/transformer-sass": "^2.16.0"
   }
 }
